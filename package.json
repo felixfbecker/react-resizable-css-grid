@@ -1,0 +1,35 @@
+{
+  "name": "react-resizable-css-grid",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "@babel/preset-typescript": "^7.10.1",
+    "@sourcegraph/eslint-config": "^0.19.2",
+    "@sourcegraph/prettierrc": "^3.0.3",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "@types/lodash": "^4.14.155",
+    "@types/react": "^16.9.36",
+    "@types/storybook__react": "^5.2.1",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.2.0",
+    "lodash": "^4.17.15",
+    "prettier": "^2.0.5",
+    "react": "^16.13.1",
+    "tagged-template-noop": "^2.1.1"
+  },
+  "dependencies": {},
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
